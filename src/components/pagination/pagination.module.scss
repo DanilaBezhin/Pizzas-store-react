@@ -1,0 +1,51 @@
+.root {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  font-size: 1.1em;
+}
+
+.minusArrow {
+  cursor: pointer;
+  padding: 0px 10px;
+  transform: translate(0%, 15%);
+  &:hover {
+    transform: translate(0%, 25%) scale(1.5);
+  }
+}
+
+.plusArrow {
+  cursor: pointer;
+  transform: translate(0%, 15%);
+  padding: 0px 10px;
+  &:hover {
+    transform: translate(0%, 25%) scale(1.5);
+  }
+}
+
+.allPaginateCount {
+  display: flex;
+  flex-direction: row;
+}
+.allPaginateCount .paginateCount:last-child {
+  margin-right: 0px;
+}
+
+.paginateCount {
+  background-color: rgb(236, 236, 236);
+  padding: 6px 13px;
+  margin-right: 10px;
+  border-radius: 100%;
+  cursor: pointer;
+  transition: background 0.4s ease;
+  &:hover {
+    background-color: rgb(157, 157, 157);
+  }
+}
+
+.paginateCountActive {
+  background-color: rgb(157, 157, 157);
+  padding: 6px 13px;
+  margin-right: 10px;
+  border-radius: 100%;
+}

@@ -1,0 +1,29 @@
+.found {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0px;
+
+  &__icon {
+    font-size: 60px;
+  }
+
+  &__text {
+    font-weight: 500;
+    font-size: 20px;
+  }
+
+  &__after_text {
+    font-size: 15px;
+  }
+
+  &__link {
+    &:hover {
+      color: #fe5f1e;
+    }
+    font-weight: 800;
+    transition: color 0.3s ease;
+    cursor: pointer;
+  }
+}
